@@ -1,0 +1,12 @@
+[
+  {
+    "jobId": "sky-alert-application",
+    "jobName": "sky-alert-application",
+    "jobGroup": "sky-server",
+    "cronExpression": "15 0/1 * * * ?",
+    "invokeTarget": "defaultTimer.run()",
+    "status": "0",
+    "concurrent": "0",
+    "misfirePolicy": "0"
+  }
+]

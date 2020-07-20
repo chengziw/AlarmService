@@ -1,0 +1,16 @@
+{
+  "consumers": [
+    {
+      "exchangeName": "exchangeToSky",
+      "queueName": "toSendAlert",
+      "confirmType": "0",
+      "consumerTag": "skyAlert",
+      "basicOrNack": "0"
+    }
+  ],"producers": [
+  {
+    "exchangeName": "exchangeToSky",
+    "queueName": "toSendAlert",
+    "routingKey": "toSendAlertKey"
+  }]
+}

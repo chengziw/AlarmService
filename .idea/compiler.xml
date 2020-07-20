@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-mq" target="11" />
+      <module name="common-timer" target="11" />
+      <module name="fincy-alert-application" target="11" />
+      <module name="fincy-alert-sdk" target="11" />
+      <module name="miss-alert-sdk" target="11" />
+      <module name="sky-alert-sdk" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

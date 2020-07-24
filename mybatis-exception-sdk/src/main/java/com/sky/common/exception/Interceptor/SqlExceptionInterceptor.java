@@ -23,6 +23,7 @@ import java.util.concurrent.Executors;
  */
 @Slf4j
 @Intercepts({
+        //插入和删除底层都是通过update实现的
         @Signature(type = Executor.class, method = "update", args = {
                 MappedStatement.class, Object.class}),
         @Signature(type = Executor.class, method = "query", args = {
@@ -72,7 +73,8 @@ public class SqlExceptionInterceptor implements Interceptor {
                 executor.execute(new Runnable() {
                     @Override
                     public void run() {
-
+                        //持久化处理
+                        //报警处理
                     }
                 });
 
